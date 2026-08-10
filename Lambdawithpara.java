@@ -1,4 +1,4 @@
-FunctionalInterface
+@FunctionalInterface
 interface A
 {
     int add(int i, int j);
