@@ -18,7 +18,7 @@ public class Super{
     public static void main(String[] args){
         Developer dev= new Developer("dev","java");
         System.out.println(dev.name);
-        System.out.println(dev.language);
+        System.out.println(dev.language);//hi
 
     }
 }
