@@ -23,7 +23,7 @@ public class ExceptionThrows {
         try {
             obj.show();
         }
-        catch (ClassNotFoundException e) {
+        catch (ClassNotFoundException e) { //hello
             e.printStackTrace();
         }
     }
