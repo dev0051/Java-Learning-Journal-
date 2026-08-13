@@ -1,0 +1,36 @@
+name: Update Streak & README Stats
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: "0 3 * * *"   # runs daily at 3:00 AM UTC (8:30 AM IST)
+  workflow_dispatch: {}    # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full git history needed for streak calculation
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Update README stats
+        run: python scripts/update_readme.py
+
+      - name: Commit changes if README updated
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: auto-update streak & stats [skip ci]"
+          git push
