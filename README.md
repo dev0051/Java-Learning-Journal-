@@ -57,7 +57,7 @@ This repository is my **daily Java learning log** — a running record of everyt
 <div align="center">
 
 ### 🐍 Contribution Graph — Snake Edition
-<img src="https://raw.githubusercontent.com/dev0051/dev0051/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/dev0051/Java-Learning-Journal-/output/github-contribution-grid-snake.svg" alt="Snake animation" /> 
 
 *(One-time setup needed — see [Enabling the Streak Widgets](#-enabling-the-streak-widgets-one-time-setup) below)*
 
