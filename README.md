@@ -26,8 +26,8 @@
 | 🔥 Current Streak | **7 days** 🔥🔥🔥🔥🔥🔥🔥 |
 | 🏆 Longest Streak | **7 days** |
 | 📅 Days Journaling | **7** |
-| ☕ Java Files Logged | **30** |
-| 📦 Total Commits | **34** |
+| ☕ Java Files Logged | **31** |
+| 📦 Total Commits | **36** |
 | 🕒 Last Updated | **14 Aug 2026** |
 
 <!--STATS:END-->
