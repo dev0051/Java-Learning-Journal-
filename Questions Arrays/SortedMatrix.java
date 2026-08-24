@@ -42,6 +42,7 @@ public class SortedMatrix {
         int rEnd = rows - 1;
         int cMid = cols / 2;
 
+        // The middle column eliminates rows until only two candidates remain.
         // run the loop till 2 rows are remaining
         while (rStart < (rEnd - 1)) { // while this is true it will have more than 2 rows
             int mid = rStart + (rEnd - rStart) / 2;
