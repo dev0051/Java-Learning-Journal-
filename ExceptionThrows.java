@@ -24,7 +24,7 @@ public class ExceptionThrows {
             obj.show();
         }
         catch (ClassNotFoundException e) { //hello
-            e.printStackTrace(); // helloooooooooooo000
+            e.printStackTrace(); // helloooooooooooo00000
         }
     }
 }
