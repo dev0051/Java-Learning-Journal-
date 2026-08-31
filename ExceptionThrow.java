@@ -20,6 +20,6 @@ public class ExceptionThrow {
 
         }
         System.out.println(j);
-        System.out.println("Good bye"); //0000
+        System.out.println("Good bye"); //00000000
     }
 }
