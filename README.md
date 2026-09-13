@@ -23,12 +23,12 @@
 
 | Metric | Value |
 |---|---|
-| 🔥 Current Streak | **35 days** 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥 |
-| 🏆 Longest Streak | **35 days** |
-| 📅 Days Journaling | **35** |
+| 🔥 Current Streak | **36 days** 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥 |
+| 🏆 Longest Streak | **36 days** |
+| 📅 Days Journaling | **36** |
 | ☕ Java Files Logged | **31** |
-| 📦 Total Commits | **123** |
-| 🕒 Last Updated | **12 Sep 2026** |
+| 📦 Total Commits | **124** |
+| 🕒 Last Updated | **13 Sep 2026** |
 
 <!--STATS:END-->
 
